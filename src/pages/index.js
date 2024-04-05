@@ -14,8 +14,7 @@ const Main = () => {
           
         </div>
         
-        <div className="absolute  top-10 mt-4 w-full h-16
-         bg-red-900 " > 
+        <div className="absolute  top-10 mt-4 w-full h-16 bg-red-900 " > 
        
        
         <div className='text-white font-bold mt-5  flex justify-center mr-40'>
@@ -29,7 +28,7 @@ const Main = () => {
         </div>
         <div className="absolute bottom-0 left-0 w-1 h-full "></div>  {/* Vertical line */}
       </div>
-      <Image src='/natrajar.png' alt="Example Image" width={500} height={200} className=' absolute bottom-0'/>
+      <Image src='/natrajar.png' alt="Example Image" width={485} height={200} className=' absolute bottom-0'/>
 <h1>hii welcome</h1>
 
 <div className="flex justify-end items-center mr-6 h-screen">
