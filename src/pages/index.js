@@ -2,7 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link';
 import Slider from '@/components/Slider';
 import { RxDropdownMenu } from "react-icons/rx";
+import Notifications from './Notifications/Notifications.js';
 const Main = () => {
+  
   return (
     <>
       <div className="relative mt-0 ">
@@ -26,19 +28,26 @@ const Main = () => {
         <Link href='/gallery' className='ml-20 '>Gallery</Link>
         </div>
         </div>
+
+        
         <div className="absolute bottom-0 left-0 w-1 h-full "></div>  {/* Vertical line */}
       </div>
-      <Image src='/natrajar.png' alt="Example Image" width={485} height={200} className=' absolute bottom-0'/>
-<h1>hii welcome</h1>
+      
+      <div className="flex justify-end items-center mr-6 mt-6 absolute top-0 right-0">
+        <Slider/>
+      </div>
+      <div className="flex justify-center  items-center pr-40 mr-10 h-screen">
+        <Notifications notificationid={100}/> {/* Place Notifications component here */}
+      </div>
+      <Image src='/natrajar.png' alt="Example Image" width={487} height={200} className=' absolute bottom-0'/>
+      
+      
 
-<div className="flex justify-end items-center mr-6 h-screen">
-      <Slider/>
-    </div>
-
-     <div className='absolute bottom-0 h-10 w-full bg-yellow-500'>
 
 
-     </div>
+
+      <div className="absolute bottom-0 left-0 w-full h-10 bg-yellow-500 "></div>
+     
     </>
   );
 };

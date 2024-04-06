@@ -25,16 +25,17 @@ const Slider = () => {
   return (
     <>
       <div className="flex justify-end items-center mr-6 h-screen">
-        <div className="bg-gray-200 w-80 h-80 p-100 rounded-md relative">
+        <div className=" w-80 h-80 p-100 rounded-md relative">
+
 
         <div className="absolute left-0  top-0 w-full h-full flex items-right justify-center">
-        <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} className='ml-15 mb-5 mt-5' width={240} height={200} /> 
+        <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} className='ml-15 mb-10 mt-5' width={300} height={350} /> 
               </div>
-          <div className="absolute bottom-36 left-88 mb-4 ml-4">
-            <CiCircleChevLeft className="text-gray-600 text-3xl cursor-pointer" onClick={slideLeft} />
+          <div className="absolute bottom-0 left-88  ml-4">
+            <CiCircleChevLeft className="text-gray-600  text-3xl cursor-pointer" onClick={slideLeft} />
           </div>
 
-          <div className="absolute bottom-36 right-0 mb-4 mr-4">
+          <div className="absolute bottom-0 right-0  mr-4">
             <CiCircleChevRight className="text-gray-600 text-3xl cursor-pointer" onClick={slideRight} />
           </div>
         </div>
