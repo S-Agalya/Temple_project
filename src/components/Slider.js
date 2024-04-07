@@ -27,6 +27,7 @@ const Slider = () => {
   return (
     <>
       <div className="flex justify-end items-center mr-6 h-screen">
+      
         <div className=" w-80 h-80 p-100 rounded-md relative">
           <div className="absolute left-0  top-0 w-full h-full flex items-right justify-center">
           <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex}`} className='ml-15 mb-10 mt-5' width={300} height={350} /> 
@@ -48,7 +49,12 @@ const Slider = () => {
           </div>
         </div>
       </div>
-      <div className='absolute bottom-0 h-10 w-full bg-yellow-500'></div>
+
+      <div className='absolute top-20 mt-20 mr-24 right-20 font-bold text-3xl' >
+      {/* Include the Om symbol as a Unicode character */}
+      <p > ॐ</p>
+    </div>
+      
     </>
   );
 };
