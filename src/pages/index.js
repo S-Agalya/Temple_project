@@ -26,7 +26,7 @@ const Main = () => {
             <Audioplayer/>
 
           </div> 
-          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg absolute top-0 right-0 mr-3 mt-4 border border-solid border-black-500 text-white" style={{backgroundColor:' #BB5A00'}}> CONTACT US</button>
+          <Link href='/home'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg absolute top-0 right-0 mt-3 mr-2 border border-solid border-black-500 text-white" style={{backgroundColor:' #BB5A00'}}> CONTACT US</button></Link>
         </div>
         
         {/* Navigation Bar */}
@@ -42,9 +42,8 @@ const Main = () => {
     <Link href='/dharshan' className='ml-20'>Dharshan</Link>
     <Link href='/gallery' className='ml-20'>Gallery</Link>
   </div>
-  <Link href='/notifications'>
-              <FaBell className="absolute top-5 right-20 text-white text-xl cursor-pointer" />
-            </Link>
+  <Link href="/Notifications.js">
+  <FaBell className="text-2xl text-white right-0 mt-3 cursor-pointer" /></Link>
           </div>
         </div>
         
@@ -63,7 +62,7 @@ const Main = () => {
       <div className="absolute bottom-20 right-5 mt-6 mr-6 text-right">
         <p className="text-lg font-bold">Temple Address: Your Address Here</p>
         <Link href="/visit-us">
-          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg absolute top-5 right-0 mr-20 mt-4 border border-black border-black-500 text-white font-bold" style={{backgroundColor:' #BB5A00'}}> VISIT US</button>
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg absolute top-5 right-10 mr-24 mt-4 border border-black border-black-500 text-white font-bold" style={{backgroundColor:' #BB5A00'}}> VISIT US</button>
         </Link>
       </div>
       
