@@ -74,7 +74,7 @@ const Main = () => {
       
       {/* temple Image */}
       <div className="absolute bottom-0 left-0 w-full">
-        <Image src='/temple.jpeg' alt="Example Image" width={570} height={150} className='absolute bottom-0'/>
+        <Image src='/temple.jpeg' alt="Example Image" width={517} height={150} className='absolute bottom-0'/>
       </div>
       
       {/* Footer */}
